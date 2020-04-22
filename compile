@@ -1,0 +1,2 @@
+g++ -std=c++11 -g ElectronTopTagger_TIFR.C -o ElectronTopTagger_TIFR.exe -lCore -ldl -rdynamic `root-config --cflags` -Wl,-rpath,/opt/root/lib `root-config --glibs` -lGui -lRGL -pthread -m64 -I/opt/root/include/ -I /home/suman/Delphes-3.4.2/ -m64 -pthread -lm -ldl -rdynamic -pthread -m64 -I/usr/local/include -Wl,-rpath,/usr/local/lib -lm -L/usr/local/lib -lfastjettools -lfastjet  -I/home/suman/Pythia8/pythia8230/include -L/usr/local/pythia8210/lib -lpythia8 -lHepMC -L/home/suman/Delphes-3.4.1/ -lDelphes -L/home/suman/Delphes-3.4.1/ -lDelphesNoFastJet -lHepMC
+
